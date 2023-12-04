@@ -1,0 +1,554 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fraunces:ital,ssz@1,9..144&family=M+PLUS+1p:wght@100&family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+
+
+*{
+   margin: 0; 
+   padding: 0;
+   text-decoration: none;
+   list-style: none;
+   font-family: 'Markazi Text';
+   
+   
+} 
+
+
+
+/* side bar css */
+
+.menu-bar{
+ position: sticky;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ background-color: #262629;
+ width: 20%;
+ /* padding-right: 10px; */
+ padding-left: 20px;
+ padding-top: 30px;
+ height: 100vh;
+
+ 
+}
+
+
+/* here is my logo at the top of the side bar*/
+.logo span{
+    width: 50px; 
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #ffffff;
+ 
+ }
+
+
+  /* here is the subtittles on the side bar */
+.sub-tittle{
+    color: rgb(0, 119, 0);
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+ul{
+    /* height: 20vh; */
+    position: relative;
+    width: 70%;
+    
+   }
+
+ul li{
+ padding: 10px;
+ margin: 10px 0px;
+ 
+}
+
+
+
+ul li a {
+ color: #efe5e5;
+ font-size: 14px;
+}
+
+
+
+ul a{
+ display: flex;
+ gap: 10px;
+ 
+}
+
+ul i{
+ font-size: 18px;
+
+}
+
+ul li i:hover{
+    color: #044a20;
+    border-radius: 12px;
+   }  
+
+ul li a:hover{
+ color: #044a20;
+ border-radius: 12px;
+}  
+
+/* .under{
+    position: absolute;
+    bottom: 60px;
+} */
+
+.last{
+  position: absolute;
+  bottom: 110px;
+}
+
+/* done */
+
+
+ /* rest body and contents starts here*/
+
+
+
+ body{
+   display: flex;
+   position: relative;
+   left: 50px;
+ }
+
+ /* main-content hold all the body , size and body colour */
+
+ .main-content{
+   background-color: #0D1926;
+   position: relative;
+   width: 90%;
+   /* margin-left: auto;
+   margin-right: auto; */
+   color: white;
+   margin-bottom: 5px;
+   
+    
+ }
+
+
+
+ /* header-search-main css starts here , this holds the search  */
+ 
+.header-main{
+ display: flex;
+ justify-content: space-between;
+ padding: 10px 0;
+ align-items: center;
+ width: 90%;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 15px;
+ border-radius: 20px;
+ position: relative;
+
+}
+
+ /* header css starts here, header includes search bar and welcome note */
+
+ .profile-info{
+    display: flex;
+    align-items: center;
+    border-radius: 10PX;
+    padding: 0 5px;
+    
+    /* DONE */
+   } 
+   
+.profile-img img{
+ width: 30px;
+ height: 30px;
+ border-radius: 50%;
+}
+
+
+input{
+    width: 260px;
+    padding: 8px;
+    background-color: rgb(49, 49, 49);
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 50px;
+    text-indent: 30px;
+    color: white;
+    
+   }
+   
+   .search-box button{
+    position: absolute;
+    left: 18px;
+    bottom: 15px;
+    font-size: 15px;
+    color: white;
+    background: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.066);
+    outline: none;
+   }
+   
+   
+
+   .afrik-tittle{
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 1px;
+
+
+   }
+
+   .afrik-flex{
+    display: flex;
+    position: absolute;
+    right: 30px;
+    padding-top: 10px;
+    gap: 1rem;
+
+
+   }
+
+   .afrik-tittle{
+    font-size: 17px;
+   }
+
+   .empty{
+    background-color: rgb(255, 255, 255);
+    padding: 0.1px;
+    height: 25px;
+   }
+
+   a{
+    color: white;
+   }
+/* ends here */
+
+
+
+
+
+/* rotational main image display laout starts here */ 
+
+.carousel{
+  /* background-color: red; */
+  width: 95%;
+  /* margin: auto; */
+  margin-left:100px;
+  margin-top: 5px;
+}
+
+.carousel-item img{
+  /* height: fit-content; */
+  width: 80%;
+  height: 40vh;
+
+} 
+
+
+.cards{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+  margin-top: 25px;
+  /* padding-bottom: 20px; */
+  position: relative;
+}
+
+.card1{
+  position: relative;
+}
+
+
+
+
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Optional: Customize the appearance of the controls */
+audio::-webkit-media-controls-panel {
+  background-color: #f9f6f6;
+  color: #333;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-pause-button,
+audio::-webkit-media-controls-volume-slider {
+  display: 1;
+}
+
+audio::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-time-remaining-display,
+audio::-webkit-media-controls-volume-control-container,
+audio::-webkit-media-controls-fullscreen-button {
+  display: 1;
+}
+
+audio{
+position: absolute;
+background:transparent;
+left: 0px;
+bottom: 5px;
+padding: 0px;
+margin: 0;
+height: 20px;
+background-color: red;
+
+}
+
+.controls{
+background-color: white;
+}
+
+audio[id='myAudio'] {
+  width: 93%;
+  position: absolute;
+  /* display: flex; */
+  left: 8px;
+  padding: 20px 20px;
+  bottom: 50px;
+  background-color: #565656;
+}
+
+
+
+body ::-webkit-scrollbar{
+  overflow: hidden;
+  margin-bottom: 20px;
+  margin-bottom: -20px;
+}
+
+/* here is my mobile responsiveness */
+
+@media screen and (max-width:1280px){
+
+
+
+.menu-bar{
+  width: 10%;
+  /* padding-right: 10px; */
+  padding-left: 10px;
+  padding-top: 30px;
+ 
+  
+ }
+ 
+.
+.logo span{
+    width: 30px; 
+ 
+ }
+
+ ul{
+  width: 40%;
+  
+ }
+
+ ul li{
+  padding: 7px;
+  margin: 7px 0px;
+  
+ }
+
+ ul li a {
+  font-size: 13px;
+ }
+
+ ul a{
+  gap: 8px;
+  
+ }
+
+ ul i{
+  font-size: 15px;
+ 
+ }
+
+ .last{
+
+  bottom: 140px;
+}
+
+.main-content{
+ 
+  width: 85%;
+  margin-bottom: 3px;
+}
+
+.header-main{
+  padding: 8px 18px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 13px;
+  
+ 
+ }
+ 
+
+ .search-box button{
+  left: 30PX;
+  bottom: 15px;
+  font-size: 15px;
+ 
+ }
+
+.profile-img img{
+  width: 20px;
+  height: 20px;
+} 
+
+input{
+  width: 180px;
+  padding: 8px;
+}
+ 
+
+.afrik-tittle{
+  font-size: 15px;
+}
+
+.carousel{
+  width: 90%;
+  margin-left:100px;
+  
+}
+
+.cards{
+  max-width: 90%;
+  padding-left: 25px;
+
+}
+.cards img{
+  max-width: 100%;
+  padding-top: 20px;
+  margin: auto;
+}
+.card1 img{
+  max-width: 100%;
+}
+
+audio{
+  /* width: 80%; */
+}
+
+audio[id='myAudio'] {
+  width: 90%;
+  margin: auto;
+  padding: 17px 25px;
+  
+}
+
+
+
+
+
+}
+
+
+/* phones */
+@media (min-width:375px) and (max-width:909px){
+.menu-bar{
+  width: 30px;
+}
+.menu-bar :hover{
+  width:5%;
+}
+
+
+.header-main{
+  width: 260px;
+  
+}
+.search-box input{
+  width: 50px;
+  margin-left: -20px;
+  padding-left: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-indent: 2px;
+  font-size: 10px;
+  
+}
+
+.search-box button{
+  left: 5px;
+  bottom: 8px;
+  font-size: 10px;
+}
+
+.afrik-tittle{
+  font-size: 10px;
+}
+
+.bell{
+  font-size: 10px;
+}
+
+.empty{
+  height: 15px;
+}
+
+.options{
+  font-size: 14px;
+}
+
+.profile-img img{
+  width: 10px;
+}
+}
+
+/* phone designs */
+
+@media (min-width:375px) and (max-width:1024px){
+
+  .profile-img img{
+    width: 50px;
+  }
+  .menu-bar{
+    overflow: hidden;
+
+  }
+
+  .main-content{
+    width: 100%;
+    
+  }
+
+  .header-main{
+    width: 100%;
+  }
+
+ .menu-bar :hover{
+    width: 10%;
+    transition: all 0.5s;
+  }
+  .cards{
+    /* max-width: fit-content; */
+    display: flex;
+    flex-wrap:wrap;
+  
+  }
+
+ .card1{
+  width: 100px;
+ } 
+
+ 
+  .carousel{
+    width: 80%;
+  }
+ 
+  .last-control{
+    width: 80%;
+  }
+}
